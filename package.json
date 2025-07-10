@@ -1,0 +1,13 @@
+{
+  "name": "comms_portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio site",
+  "homepage": "https://xh-51.github.io/OngXinHui_portfolio/",
+  "scripts": {
+    "predeploy": "echo 'Copying files from dist to root...' && xcopy dist\\* . /E /Y",
+    "deploy": "git add . && git commit -m \"Update website\" && git push origin gh-pages"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+} 
